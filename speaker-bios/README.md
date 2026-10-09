@@ -9,6 +9,7 @@ Each speaker card shows the first two lines of a short bio. Choosing **View more
 ```
 speaker-bios/
 ├── index.html                 Demo page with six example speakers
+├── preview.html               Client preview with Desktop / Mobile switch
 ├── css/speaker-cards.css      Component styles and Chatham tokens
 ├── js/speaker-cards.js        Progressive enhancement for the toggles
 ├── images/                    Placeholder portrait
@@ -16,6 +17,15 @@ speaker-bios/
 ```
 
 Open `index.html` in a browser to try it. No build step is needed.
+
+## Client preview
+
+Open `preview.html` to show the component inside fixed device viewports, as in the design prototype:
+
+- **Desktop:** 1280 × 832
+- **Mobile:** 393 × 852
+
+A floating Desktop / Mobile switch at the bottom of the screen swaps between them, and each viewport scrolls independently. Add `#mobile` to the URL to open straight onto the mobile view. Use a browser window wider than 1280px so the desktop viewport isn't cropped.
 
 ## Fonts
 
