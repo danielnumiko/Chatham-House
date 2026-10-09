@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speaker cards with bio preview (CHAT-2088)</title>
+  <link rel="stylesheet" href="css/speaker-cards.css">
+  <style>
+    body { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="speakers" data-speaker-cards aria-labelledby="speakers-heading">
+      <div class="speakers__inner">
+        <h2 class="speakers__heading" id="speakers-heading">Keynote speakers</h2>
+        <p class="speakers__intro">Event chaired by James Harding.</p>
+        <ul class="speakers__grid">
+          <li>
+            <article class="speaker-card" aria-labelledby="speaker-1-name">
+              <div class="speaker-card__head">
+                <div class="speaker-card__who">
+                  <h3 class="speaker-card__name" id="speaker-1-name">Dr Simon Smith</h3>
+                  <p class="speaker-card__role">Founding Partner, Horizon Insights</p>
+                </div>
+                <img class="speaker-card__avatar" src="images/speaker-placeholder.png" alt="" width="80" height="80">
+              </div>
+              <div class="speaker-card__bio" id="speaker-1-bio">
+                <p class="speaker-card__bio-text">Former Permanent Under-Secretary at the Foreign Office, Simon now advises governments and businesses on regulatory and political risk in international markets. During his diplomatic career he ran the UK&rsquo;s global network of embassies and sat on the National Security Council. He is a founding partner of Horizon Insights and a visiting professor in international relations.</p>
+              </div>
+              <button class="speaker-card__toggle" type="button" aria-expanded="false" aria-controls="speaker-1-bio">
+                <span class="speaker-card__toggle-label">View more</span><span class="visually-hidden"> about Dr Simon Smith</span>
+                <svg class="speaker-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article class="speaker-card" aria-labelledby="speaker-2-name">
+              <div class="speaker-card__head">
+                <div class="speaker-card__who">
+                  <h3 class="speaker-card__name" id="speaker-2-name">Professor Casey Brown</h3>
+                  <p class="speaker-card__role">Associate Fellow, Asia-Pacific Programme</p>
+                </div>
+                <img class="speaker-card__avatar" src="images/speaker-placeholder.png" alt="" width="80" height="80">
+              </div>
+              <div class="speaker-card__bio" id="speaker-2-bio">
+                <p class="speaker-card__bio-text">Leads Chatham House research on competition policy in East Asia and has advised the OECD on cross-border merger review. Casey&rsquo;s recent work examines how China&rsquo;s anti-monopoly regime shapes global deal-making, and she is a regular commentator for international broadcasters. Before joining Chatham House she spent eight years in private practice in Hong Kong and Singapore.</p>
+              <a class="speaker-card__link" href="#">Read more<span class="visually-hidden"> about Professor Casey Brown</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg></a>
+              </div>
+              <button class="speaker-card__toggle" type="button" aria-expanded="false" aria-controls="speaker-2-bio">
+                <span class="speaker-card__toggle-label">View more</span><span class="visually-hidden"> about Professor Casey Brown</span>
+                <svg class="speaker-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article class="speaker-card" aria-labelledby="speaker-3-name">
+              <div class="speaker-card__head">
+                <div class="speaker-card__who">
+                  <h3 class="speaker-card__name" id="speaker-3-name">Jordan Jones</h3>
+                  <p class="speaker-card__role">Chief Economist, Strategic Horizons</p>
+                </div>
+                <img class="speaker-card__avatar" src="images/speaker-placeholder.png" alt="" width="80" height="80">
+              </div>
+              <div class="speaker-card__bio" id="speaker-3-bio">
+                <p class="speaker-card__bio-text">Jordan spent a decade at the European Commission&rsquo;s competition directorate and now writes on how digital markets are reshaping antitrust enforcement. At Strategic Horizons, Jordan leads economic analysis for clients facing merger reviews in the EU and UK, and has published widely on platform regulation, data access and interoperability.</p>
+              </div>
+              <button class="speaker-card__toggle" type="button" aria-expanded="false" aria-controls="speaker-3-bio">
+                <span class="speaker-card__toggle-label">View more</span><span class="visually-hidden"> about Jordan Jones</span>
+                <svg class="speaker-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article class="speaker-card" aria-labelledby="speaker-4-name">
+              <div class="speaker-card__head">
+                <div class="speaker-card__who">
+                  <h3 class="speaker-card__name" id="speaker-4-name">Professor Alexandra Montgomery-Whitfield</h3>
+                  <p class="speaker-card__role">Director of Competition and Markets Policy, Institute for Regulatory Studies</p>
+                </div>
+                <img class="speaker-card__avatar" src="images/speaker-placeholder.png" alt="" width="80" height="80">
+              </div>
+              <div class="speaker-card__bio" id="speaker-4-bio">
+                <p class="speaker-card__bio-text">An expert in merger control and state aid, Alexandra has given evidence to parliamentary committees in the UK, Canada and Australia. She directs the Institute for Regulatory Studies&rsquo; competition and markets programme, advises several national regulators on enforcement strategy, and is the author of a widely used textbook on European competition law.</p>
+              </div>
+              <button class="speaker-card__toggle" type="button" aria-expanded="false" aria-controls="speaker-4-bio">
+                <span class="speaker-card__toggle-label">View more</span><span class="visually-hidden"> about Professor Alexandra Montgomery-Whitfield</span>
+                <svg class="speaker-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article class="speaker-card" aria-labelledby="speaker-5-name">
+              <div class="speaker-card__head">
+                <div class="speaker-card__who">
+                  <h3 class="speaker-card__name" id="speaker-5-name">Dr Morgan Chase</h3>
+                  <p class="speaker-card__role">Partner, Insight Partners</p>
+                </div>
+                <img class="speaker-card__avatar" src="images/speaker-placeholder.png" alt="" width="80" height="80">
+              </div>
+              <div class="speaker-card__bio" id="speaker-5-bio">
+                <p class="speaker-card__bio-text">Morgan advises technology firms on competition investigations and previously led the digital markets team at a national regulator. Morgan&rsquo;s practice focuses on cloud services, app stores and AI partnerships, and Morgan sits on the advisory board of a leading competition law journal.</p>
+              </div>
+              <button class="speaker-card__toggle" type="button" aria-expanded="false" aria-controls="speaker-5-bio">
+                <span class="speaker-card__toggle-label">View more</span><span class="visually-hidden"> about Dr Morgan Chase</span>
+                <svg class="speaker-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </article>
+          </li>
+          <li>
+            <article class="speaker-card" aria-labelledby="speaker-6-name">
+              <div class="speaker-card__head">
+                <div class="speaker-card__who">
+                  <h3 class="speaker-card__name" id="speaker-6-name">Professor Taylor Ash</h3>
+                  <p class="speaker-card__role">Senior Research Fellow, Global Economy and Finance Programme</p>
+                </div>
+                <img class="speaker-card__avatar" src="images/speaker-placeholder.png" alt="" width="80" height="80">
+              </div>
+              <div class="speaker-card__bio" id="speaker-6-bio">
+                <p class="speaker-card__bio-text">Taylor researches the geopolitics of industrial policy and previously served as an adviser at HM Treasury. Taylor&rsquo;s current project examines how subsidy races between the US, EU and China are reshaping supply chains, and Taylor co-chairs the Chatham House working group on economic security.</p>
+              <a class="speaker-card__link" href="#">Read more<span class="visually-hidden"> about Professor Taylor Ash</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg></a>
+              </div>
+              <button class="speaker-card__toggle" type="button" aria-expanded="false" aria-controls="speaker-6-bio">
+                <span class="speaker-card__toggle-label">View more</span><span class="visually-hidden"> about Professor Taylor Ash</span>
+                <svg class="speaker-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="js/speaker-cards.js" defer></script>
+</body>
+</html>
